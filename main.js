@@ -1595,7 +1595,7 @@ __p+='`),
             o.off(s, p),
             w(function (N) {
               e.ajax({
-                url: A("https://editor-api.webflow.com/api/editor/view"),
+                url: A(""),
                 data: { siteId: i.attr("data-wf-site") },
                 xhrFields: { withCredentials: !0 },
                 dataType: "json",
@@ -1630,14 +1630,14 @@ __p+='`),
         function P(N) {
           return N.indexOf("//") >= 0
             ? N
-            : A("https://editor-api.webflow.com" + N);
+            : A("" + N);
         }
         function A(N) {
           return N.replace(/([^:])\/\//g, "$1/");
         }
         function w(N) {
           var C = window.document.createElement("iframe");
-          (C.src = "https://webflow.com/site/third-party-cookie-check.html"),
+          (C.src = ""),
             (C.style.display = "none"),
             (C.sandbox = "allow-scripts allow-same-origin");
           var q = function (G) {
@@ -10183,12 +10183,12 @@ __p+='`),
             };
         function w() {
           (c = e("html").attr("data-wf-site")),
-            (S = "https://webflow.com/api/v1/form/" + c),
+            (S = "" + c),
             a &&
-              S.indexOf("https://webflow.com") >= 0 &&
+              S.indexOf("") >= 0 &&
               (S = S.replace(
                 "https://webflow.com",
-                "https://formdata.webflow.com"
+                ""
               )),
             (b = `${S}/signFile`),
             (o = e(s + " form")),
