@@ -2935,16 +2935,14 @@ h3 {
 
 @font-face {
   font-family: "Fa Solid 900";
-  src: url("https://uploads-ssl.webflow.com/64c4f6324fbe08b47f9cb6d4/64c5366e534786a2759d2b45_fa-solid-900.woff2")
-    format("woff2");
+  src: url("./webfonts/fa-solid-900.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Fa Brands 400";
-  src: url("https://uploads-ssl.webflow.com/64c4f6324fbe08b47f9cb6d4/64c53de016fce3dec2d730d0_fa-brands-400.woff2")
-    format("woff2");
+  src: url("./webfonts/fa-brands-400.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
